@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header input{
+    margin-top:15px;
+    padding:10px;
+    width:300px;
+    max-width:90%;
+    border:none;
+    border-radius:5px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    text-align:center;
+    padding:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h2{
+    margin:10px 0;
+}
+
+.card p{
+    color:#0077cc;
+    font-size:20px;
+    font-weight:bold;
+}
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+footer{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-box{
+    background: rgba(255,255,255,0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.offer-box h3{
+    color: red;
+    font-size: 24px;
+}
+
+.offer-box h1{
+    color: #0d47a1;
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.offer-box p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.offer-box button{
+    background: orange;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offer-box button:hover{
+    background: darkorange;
+}

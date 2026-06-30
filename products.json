@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "laptop",
+    "category": "Electronics",
+    "price": 50000,
+    "rating": 4.8,
+    "image": "./images/laptop.jpg"
+  },
+  {
+    "id": 2,
+    "name": "phone",
+    "category": "Electronics",
+    "price": 25000,
+    "rating": 4.7,
+    "image": "./images/phone.jpg"
+  },
+  {
+    "id": 3,
+    "name": "headphones",
+    "category": "Accessories",
+    "price": 3000,
+    "rating": 4.5,
+    "image": "./images/headphones.jpg"
+  },
+  {
+    "id": 4,
+    "name": "watch",
+    "category": "Wearables",
+    "price": 6000,
+    "rating": 4.6,
+    "image": "./images/watch.jpg"
+  },
+  {
+    "id": 5,
+    "name": "keyboard",
+    "category": "Accessories",
+    "price": 1500,
+    "rating": 4.4,
+    "image": "./images/keyboard.jpg"
+  },
+  {
+    "id": 6,
+    "name": "mouse",
+    "category": "Accessories",
+    "price": 800,
+    "rating": 4.3,
+    "image": "./images/mouse.jpg"
+  },
+  {
+    "id": 7,
+    "name": "mike",
+    "category": "Electronics",
+    "price": 85000,
+    "rating": 4.9,
+    "image": "./images/mike.jpg"
+  },
+  {
+    "id": 8,
+    "name": "tablet",
+    "category": "Electronics",
+    "price": 18000,
+    "rating": 4.5,
+    "image": "./images/tablet.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Speaker",
+    "category": "Audio",
+    "price": 2500,
+    "rating": 4.4,
+    "image": "./images/speaker.jpg"
+  },
+  {
+    "id": 10,
+    "name": "powerbank",
+    "category": "Accessories",
+    "price": 1200,
+    "rating": 4.3,
+    "image": "./images/powerbank.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Pendrive",
+    "category": "Storage",
+    "price": 700,
+    "rating": 4.2,
+    "image": "./images/pendrive.jpg"
+  },
+  {
+    "id": 12,
+    "name": "harddisk",
+    "category": "Storage",
+    "price": 4500,
+    "rating": 4.6,
+    "image": "./images/harddisk.jpg"
+  },
+  {
+    "id": 13,
+    "name": "monitor",
+    "category": "Electronics",
+    "price": 12000,
+    "rating": 4.7,
+    "image": "./images/monitor.jpg"
+  },
+  {
+    "id": 14,
+    "name": "printer",
+    "category": "Office",
+    "price": 9000,
+    "rating": 4.3,
+    "image": "./images/printer.jpg"
+  },
+  {
+    "id": 15,
+    "name": "webcam",
+    "category": "Accessories",
+    "price": 2200,
+    "rating": 4.4,
+    "image": "./images/webcam.jpg"
+  },
+  {
+    "id": 16,
+    "name": "microphone",
+    "category": "Audio",
+    "price": 2800,
+    "rating": 4.5,
+    "image": "./images/microphone.jpg"
+  },
+  {
+    "id": 17,
+    "name": "earbuds",
+    "category": "Audio",
+    "price": 3500,
+    "rating": 4.7,
+    "image": "./images/earbuds.jpg"
+  },
+  {
+    "id": 18,
+    "name": "router",
+    "category": "Networking",
+    "price": 2000,
+    "rating": 4.4,
+    "image": "./images/router.jpg"
+  },
+  {
+    "id": 19,
+    "name": "ssd",
+    "category": "Storage",
+    "price": 6500,
+    "rating": 4.8,
+    "image": "./images/ssd.jpg"
+  },
+  {
+    "id": 20,
+    "name": "gpu",
+    "category": "Computer Parts",
+    "price": 40000,
+    "rating": 4.9,
+    "image": "./images/gpu.jpg"
+  }
+]

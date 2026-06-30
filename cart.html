@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Shopping Cart</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<div class="card">
+<h2>Your Cart</h2>
+<div id="cartItems"></div>
+<h3 id="total"></h3>
+</div>
+
+<script>
+const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+const cartItems = document.getElementById("cartItems");
+const total = document.getElementById("total");
+
+if (cart.length === 0) {
+
+    cartItems.innerHTML = "<p>Your Cart is Empty</p>";
+
+} else {
+
+    let totalPrice = 0;
+
+    cart.forEach((item, index) => {
+
+        totalPrice += item.price;
+
+        cartItems.innerHTML += `
+        <div style="margin:15px 0;border-bottom:1px solid #ccc;padding-bottom:10px;">
+            <img src="${item.image}" width="100"><br>
+            <b>${item.name}</b><br>
+            Category: ${item.category}<br>
+            Rating: ⭐ ${item.rating}<br>
+            Price: ₹${item.price}<br><br>
+
+            <button onclick="removeItem(${index})">
+                Remove
+            </button>
+        </div>
+        `;
+    });
+
+    total.innerHTML = "Total : ₹" + totalPrice;
+}
+
+function removeItem(index){
+
+    cart.splice(index,1);
+
+    localStorage.setItem("cart",JSON.stringify(cart));
+
+    location.reload();
+
+}
+</script>
+
+</body>
+</html>
